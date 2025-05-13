@@ -48,8 +48,7 @@ Note: PyTorch Geometric has specific installation instructions based on your OS 
 ## 🚀 How to Run
 Clone this repository:
 
-bash
-```
+```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ```

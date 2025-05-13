@@ -1,4 +1,4 @@
-# 🔗 Credit Card Fraud Detection Using Graph Neural Networks (GNNs)
+# Credit Card Fraud Detection Using Graph Neural Networks (GNNs)
 
 This repository contains the implementation of a Graph Neural Network (GNN)-based approach for detecting credit card fraud using transaction data. The project leverages **PyTorch Geometric** to model transactions as a graph, allowing the model to capture hidden patterns and relationships that traditional models might miss.
 
@@ -43,6 +43,8 @@ pip install torch torchvision torchaudio torch-geometric pandas numpy scikit-lea
 ```
 Note: PyTorch Geometric has specific installation instructions based on your OS and CUDA version. Follow the official guide here: https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html
 
+---
+
 ## 🚀 How to Run
 Clone this repository:
 
@@ -55,9 +57,9 @@ Make sure the dataset file creditcard_2023.csv is present in the working directo
 
 Run the notebook:
 
--In Jupyter Notebook / Jupyter Lab
+- In Jupyter Notebook / Jupyter Lab
 
--Or on Google Colab (recommended for easy GPU access)
+- Or on Google Colab (recommended for easy GPU access)
 
 ## 📊 Model Performance
 Architecture: 2-layer GCN using GCNConv
@@ -69,18 +71,18 @@ Includes: Confusion Matrix, ROC Curve, Classification Report
 Our GCN model demonstrated strong capability in detecting fraudulent transactions even under severe class imbalance, outperforming traditional shallow models in both interpretability and detection sensitivity.
 
 ## 🧠 Future Scope
-Integration of dynamic graphs for real-time fraud detection
+- Integration of dynamic graphs for real-time fraud detection
 
-Use of heterogeneous GNNs to model multiple entity types (customers, merchants, cards)
+- Use of heterogeneous GNNs to model multiple entity types (customers, merchants, cards)
 
-Deployment as a web API for live inference
+- Deployment as a web API for live inference
 
 ## 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## 🙌 Acknowledgments
-Dataset by Nelgiriyewithana on Kaggle: https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023
+- Dataset by Nelgiriyewithana on Kaggle: https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023
 
-PyTorch Geometric for the powerful GNN framework
+- PyTorch Geometric for the powerful GNN framework
 
 

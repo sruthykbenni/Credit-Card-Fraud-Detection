@@ -60,6 +60,8 @@ Run the notebook:
 
 - Or on Google Colab (recommended for easy GPU access)
 
+---
+
 ## 📊 Model Performance
 Architecture: 2-layer GCN using GCNConv
 
@@ -69,6 +71,8 @@ Includes: Confusion Matrix, ROC Curve, Classification Report
 
 Our GCN model demonstrated strong capability in detecting fraudulent transactions even under severe class imbalance, outperforming traditional shallow models in both interpretability and detection sensitivity.
 
+---
+
 ## 🧠 Future Scope
 - Integration of dynamic graphs for real-time fraud detection
 
@@ -76,8 +80,12 @@ Our GCN model demonstrated strong capability in detecting fraudulent transaction
 
 - Deployment as a web API for live inference
 
+---
+
 ## 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
 
 ## 🙌 Acknowledgments
 - Dataset by Nelgiriyewithana on Kaggle: https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023
